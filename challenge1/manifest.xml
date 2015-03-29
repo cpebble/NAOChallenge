@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package version="1.0.0" uuid="challenge1-57e02e">
+ <names>
+  <name lang="en_US">challenge1</name>
+ </names>
+ <supportedLanguages>
+  <language>en_US</language>
+ </supportedLanguages>
+ <descriptionLanguages>
+  <language>en_US</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path="landmarketc">
+   <nature>interactive</nature>
+   <names>
+    <name lang="en_US">landmarketc</name>
+   </names>
+   <triggerSentences>
+    <sentence lang="en_US">i want to play</sentence>
+   </triggerSentences>
+   <loadingResponses/>
+   <autonomous/>
+   <permissions/>
+  </behaviorContent>
+  <behaviorContent path="move">
+   <nature>interactive</nature>
+   <names>
+    <name lang="en_US">move</name>
+   </names>
+   <permissions/>
+  </behaviorContent>
+ </contents>
+ <requirements>
+  <naoqiRequirement/>
+  <robotRequirement model="NAO"/>
+ </requirements>
+</package>
